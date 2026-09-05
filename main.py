@@ -40,4 +40,5 @@ def is_balanced(new_str):
     else:
         return "Несбалансированно"
 
-print(is_balanced('([{({})}])'))
+data = input("Введите строку: ")
+print(is_balanced(data))
